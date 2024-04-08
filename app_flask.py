@@ -24,8 +24,8 @@ def summarize():
     outputs = model.generate(
         input_ids,
         attention_mask=attention_mask,
-        min_length=60,
-        max_length=80,
+        min_length=20,
+        max_length=80, 
         num_beams=10,
         repetition_penalty=2.5,
         length_penalty=1.0,
