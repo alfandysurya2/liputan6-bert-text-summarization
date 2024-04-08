@@ -1,4 +1,4 @@
 .ipynb_checkpoints/
 __pycache__/
-models/model_batch_2_lr_1e-5/model.safetensors
-dataset/df_train.csv
+# models/model_batch_2_lr_1e-5/model.safetensors
+# dataset/df_train.csv
