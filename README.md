@@ -91,3 +91,6 @@ Sure, here's the updated project structure explanation:
 - **text_summarization_BERT_fine_tune.ipynb**: Jupyter Notebook for fine-tuning BERT models for text summarization.
 - **text_summarization_BERT_ROUGE.ipynb**: Jupyter Notebook for evaluating BERT models using ROUGE metrics.
 - **README.md**: Markdown file containing project description and documentation.
+
+## Deployment
+Deployment is done using Flask and Streamlit libraries.
