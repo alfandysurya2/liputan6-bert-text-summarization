@@ -31,7 +31,7 @@ The best performing model is fine tuned model with `learning rate 1e-5 and batch
 - RougeL: 0.262
 - RougeLSUM: 0.243
 
-The model fine-tuned results can be accessed [here](https://huggingface.co/alfandy/bert2bert-batch2-lr1e-5-summarization) 
+The fine-tuned model results can be accessed [here](https://huggingface.co/alfandy/bert2bert-batch2-lr1e-5-summarization) 
 
 ### All Model Results:
 
