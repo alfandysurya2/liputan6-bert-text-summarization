@@ -1,15 +1,17 @@
 # Liputan6 Text Summarization with BERT
 
-This project focuses on text summarization using BERT models for Indonesian language. Below are the details of the project.
+This project focuses on text summarization using BERT models for Indonesian language. This project used open source dataset from
+HuggingFace (source: https://huggingface.co/datasets/id_liputan6). Below are the details of the project.
 
-## Resources
+## Resources:
+Use google colabolatory environment with this specification:
 - GPU: V100 16GB
 - RAM: 12.7GB
 
 ## Used Pretrained Models:
 
-1. `cahya/bert2bert-indonesian-summarization`
-2. `Alfahluzi/bert2bert-extreme`
+1. [cahya/bert2bert-indonesian-summarization](https://huggingface.co/cahya/bert2bert-indonesian-summarization)
+2. [Alfahluzi/bert2bert-extreme](https://huggingface.co/Alfahluzi/bert2bert-Large)
 
 ## Fine-Tuned Models:
 
@@ -29,6 +31,8 @@ The best performing model is fine tuned model with `learning rate 1e-5 and batch
 - RougeL: 0.262
 - RougeLSUM: 0.243
 
+The model fine-tuned results can be accessed [here](https://huggingface.co/alfandy/bert2bert-batch2-lr1e-5-summarization) 
+
 ### All Model Results:
 
 | Model                                          | Type                    | Rouge1 | Rouge2 | RougeL | RougeLSUM |
@@ -38,12 +42,9 @@ The best performing model is fine tuned model with `learning rate 1e-5 and batch
 | model_batch_4_lr_5e-5                         | Pretrained + Fine Tuned | 0.333  | 0.120  | 0.251  | 0.235     |
 | model_batch_2_lr_5e-5                         | Pretrained + Fine Tuned | 0.328  | 0.117  | 0.250  | 0.232     |
 | model_batch_4_lr_1e-5                         | Pretrained + Fine Tuned | 0.320  | 0.117  | 0.245  | 0.227     |
-| model_batch_2_lr_1e-5                         | Pretrained + Fine Tuned | 0.342  | 0.126  | 0.262  | 0.243     |
+| model_batch_2_lr_1e-5 (best model)            | Pretrained + Fine Tuned | 0.342  | 0.126  | 0.262  | 0.243     |
 
 ## Project Structure
-
-Sure, here's the updated project structure explanation:
-
 ```
 ├── dataset
 │   ├── df_test.csv
