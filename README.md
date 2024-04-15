@@ -22,7 +22,7 @@ The pretrained model `cahya/bert2bert-indonesian-summarization` was fine-tuned w
 
 ## Model Evaluation
 
-The best performing model is fine tuned model with learning rate 1e-5 and batch size 2 with the following Rouge scores:
+The best performing model is fine tuned model with `learning rate 1e-5 and batch size 2` with the following Rouge scores:
 
 - Rouge1: 0.342
 - Rouge2: 0.126
