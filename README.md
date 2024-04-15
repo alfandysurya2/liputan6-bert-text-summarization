@@ -4,7 +4,7 @@ This project focuses on text summarization using BERT models for Indonesian lang
 HuggingFace (source: https://huggingface.co/datasets/id_liputan6). Below are the details of the project.
 
 ## Resources:
-Use google colabolatory environment with this specification:
+Google Colabolatory environment with this specification:
 - GPU: V100 16GB
 - RAM: 12.7GB
 
